@@ -1,0 +1,96 @@
+* {
+  font-family: "Gaegu", cursive;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+}
+
+.list {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.todo__items,
+.done__items {
+  height: 200px;
+  overflow-y: auto;
+  /* making scroll */
+}
+
+.todo__item,
+.done__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+}
+
+.todo__item__delete {
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 300ms ease-in;
+}
+
+.item__delete:hover {
+  color: orange;
+  transform: scale(1.1);
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+header,
+footer {
+  background-color: #f9d002;
+}
+
+footer {
+  padding: 20px 0px;
+}
+
+section {
+  width: 400px;
+  margin: auto;
+  overflow-y: auto;
+}
+
+input {
+  border: 1px solid white;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Gaegu", cursive;
+  padding: 8px;
+  margin: 0 10px;
+}
